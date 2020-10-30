@@ -51,6 +51,7 @@ Parse datetime with timezone support (using pytz package):
     datetime_obj, _ = cal.parseDT(datetimeString="tomorrow", tzinfo=timezone("US/Pacific"))
 
 .. code:: python
+
     text = 'We will share next update by 30/01/2020 at 7:00PM.'
     time_struct, parse_status = cal.parse(text, sourceTime=datetime.now() OR ANY OTHER)
     """
