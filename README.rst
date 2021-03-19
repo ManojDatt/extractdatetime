@@ -9,7 +9,7 @@ Installing
 
 You can install extractdatetime using::
 
-    pip install extractdatetime
+    pip install git+https://github.com/ManojDatt/extractdatetime.git
 
 ===================
 Using extractdatetime
